@@ -1,0 +1,164 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2580
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red159\green160\blue28;\red180\green36\blue25;
+}
+{\*\expandedcolortbl;;\csgray\c0;\cssrgb\c68468\c68012\c14208;\cssrgb\c76409\c21698\c12524;
+}
+\margl1440\margr1440\vieww68300\viewh25180\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 Last login: Sun Jun  6 16:46:16 on ttys000\
+sookie@Luckys-MBP ~ % pip3 freeze\
+\
+appnope==0.1.2\
+backcall==0.2.0\
+certifi==2020.12.5\
+chardet==4.0.0\
+click==8.0.1\
+decorator==5.0.7\
+Flask==2.0.1\
+forex-python==1.5\
+idna==2.10\
+ipython==7.23.1\
+ipython-genutils==0.2.0\
+itsdangerous==2.0.1\
+jedi==0.18.0\
+Jinja2==3.0.1\
+MarkupSafe==2.0.1\
+matplotlib-inline==0.1.2\
+neuralart==1.0.2\
+numpy==1.20.3\
+parso==0.8.2\
+pexpect==4.8.0\
+pickleshare==0.7.5\
+Pillow==8.2.0\
+prompt-toolkit==3.0.18\
+ptyprocess==0.7.0\
+Pygments==2.9.0\
+requests==2.25.1\
+simplejson==3.17.2\
+torch==1.8.1\
+traitlets==5.0.5\
+typing-extensions==3.10.0.0\
+urllib3==1.26.4\
+wcwidth==0.2.5\
+Werkzeug==2.0.1\
+sookie@Luckys-MBP ~ % pip3 uninstall flask_debugtoolbar\
+\
+\cf3 WARNING: Skipping flask-debugtoolbar as it is not installed.\cf2 \
+sookie@Luckys-MBP ~ % ls\
+Desktop		Downloads	Local Sites	Music		Public\
+Documents	Library		Movies		Pictures\
+sookie@Luckys-MBP ~ % cd desktop\
+sookie@Luckys-MBP desktop % ls\
+19.3_flask_tool		flask-jinja-demo	springboard\
+sookie@Luckys-MBP desktop %  cd flask-jinja-demo\
+sookie@Luckys-MBP flask-jinja-demo % ls\
+__pycache__	static		venv\
+app.py		templates	video-demo\
+sookie@Luckys-MBP flask-jinja-demo % cd video-demo\
+sookie@Luckys-MBP video-demo % ls\
+__pycache__		requirements.txt	templates\
+app.py			static\
+sookie@Luckys-MBP video-demo % python3 -m venv venv\
+\
+sookie@Luckys-MBP video-demo % source venv/bin/activate\
+\
+(venv) sookie@Luckys-MBP video-demo % pip install -r requirements.txt\
+\
+Collecting autopep8==1.4.4\
+  Using cached autopep8-1.4.4.tar.gz (114 kB)\
+Collecting blinker==1.4\
+  Using cached blinker-1.4.tar.gz (111 kB)\
+Collecting Click==7.0\
+  Using cached Click-7.0-py2.py3-none-any.whl (81 kB)\
+Collecting Flask==1.1.1\
+  Using cached Flask-1.1.1-py2.py3-none-any.whl (94 kB)\
+Collecting Flask-DebugToolbar==0.10.1\
+  Using cached Flask_DebugToolbar-0.10.1-py2.py3-none-any.whl (326 kB)\
+Collecting itsdangerous==1.1.0\
+  Using cached itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)\
+Collecting Jinja2==2.10.3\
+  Using cached Jinja2-2.10.3-py2.py3-none-any.whl (125 kB)\
+Collecting MarkupSafe==1.1.1\
+  Using cached MarkupSafe-1.1.1-cp39-cp39-macosx_10_9_x86_64.whl (16 kB)\
+Collecting pycodestyle==2.5.0\
+  Using cached pycodestyle-2.5.0-py2.py3-none-any.whl (51 kB)\
+Collecting Werkzeug==0.16.0\
+  Using cached Werkzeug-0.16.0-py2.py3-none-any.whl (327 kB)\
+Using legacy 'setup.py install' for autopep8, since package 'wheel' is not installed.\
+Using legacy 'setup.py install' for blinker, since package 'wheel' is not installed.\
+Installing collected packages: MarkupSafe, Werkzeug, Jinja2, itsdangerous, Click, pycodestyle, Flask, blinker, Flask-DebugToolbar, autopep8\
+    Running setup.py install for blinker ... done\
+    Running setup.py install for autopep8 ... done\
+Successfully installed Click-7.0 Flask-1.1.1 Flask-DebugToolbar-0.10.1 Jinja2-2.10.3 MarkupSafe-1.1.1 Werkzeug-0.16.0 autopep8-1.4.4 blinker-1.4 itsdangerous-1.1.0 pycodestyle-2.5.0\
+\cf3 WARNING: You are using pip version 21.1.1; however, version 21.1.2 is available.\cf2 \
+\cf3 You should consider upgrading via the '/Users/sookie/Desktop/flask-jinja-demo/video-demo/venv/bin/python3 -m pip install --upgrade pip' command.\cf2 \
+\
+\
+(venv) sookie@Luckys-MBP video-demo % pip3 freeze\
+\
+autopep8==1.4.4\
+blinker==1.4\
+Click==7.0\
+Flask==1.1.1\
+Flask-DebugToolbar==0.10.1\
+itsdangerous==1.1.0\
+Jinja2==2.10.3\
+MarkupSafe==1.1.1\
+pycodestyle==2.5.0\
+Werkzeug==0.16.0\
+(venv) sookie@Luckys-MBP video-demo % FLASK_ENV=development flask run\
+\
+ * Environment: development\
+ * Debug mode: on\
+Usage: flask run [OPTIONS]\
+Try 'flask run --help' for help.\
+\
+Error: While importing 'app', an ImportError was raised:\
+\
+Traceback (most recent call last):\
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/cli.py", line 256, in locate_app\
+    __import__(module_name)\
+  File "/Users/sookie/Desktop/flask-jinja-demo/video-demo/app.py", line 3, in <module>\
+    from flask_debugtoolbar import DebugToolbarExtension\
+ModuleNotFoundError: No module named 'flask_debugtoolbar'\
+\
+(venv) sookie@Luckys-MBP video-demo % pip3 install flask-debugtoolbar\
+\
+Requirement already satisfied: flask-debugtoolbar in ./venv/lib/python3.9/site-packages (0.10.1)\
+Requirement already satisfied: werkzeug in ./venv/lib/python3.9/site-packages (from flask-debugtoolbar) (0.16.0)\
+Requirement already satisfied: Blinker in ./venv/lib/python3.9/site-packages (from flask-debugtoolbar) (1.4)\
+Requirement already satisfied: Flask>=0.8 in ./venv/lib/python3.9/site-packages (from flask-debugtoolbar) (1.1.1)\
+Requirement already satisfied: itsdangerous in ./venv/lib/python3.9/site-packages (from flask-debugtoolbar) (1.1.0)\
+Requirement already satisfied: click>=5.1 in ./venv/lib/python3.9/site-packages (from Flask>=0.8->flask-debugtoolbar) (7.0)\
+Requirement already satisfied: Jinja2>=2.10.1 in ./venv/lib/python3.9/site-packages (from Flask>=0.8->flask-debugtoolbar) (2.10.3)\
+Requirement already satisfied: MarkupSafe>=0.23 in ./venv/lib/python3.9/site-packages (from Jinja2>=2.10.1->Flask>=0.8->flask-debugtoolbar) (1.1.1)\
+\cf3 WARNING: You are using pip version 21.1.1; however, version 21.1.2 is available.\cf2 \
+\cf3 You should consider upgrading via the '/Users/sookie/Desktop/flask-jinja-demo/video-demo/venv/bin/python3 -m pip install --upgrade pip' command.\cf2 \
+(venv) sookie@Luckys-MBP video-demo % /Users/sookie/Desktop/flask-jinja-demo/video-demo/venv/bin/python3 -m pip install --upgrade pip\
+Requirement already satisfied: pip in ./venv/lib/python3.9/site-packages (21.1.1)\
+\
+FLASK_ENV=development flask run\
+.\
+\
+^C\cf4 ERROR: Operation cancelled by user\cf2 \
+\cf3 WARNING: You are using pip version 21.1.1; however, version 21.1.2 is available.\cf2 \
+\cf3 You should consider upgrading via the '/Users/sookie/Desktop/flask-jinja-demo/video-demo/venv/bin/python3 -m pip install --upgrade pip' command.\cf2 \
+(venv) sookie@Luckys-MBP video-demo % FLASK_ENV=development flask run\
+ * Environment: development\
+ * Debug mode: on\
+Usage: flask run [OPTIONS]\
+Try 'flask run --help' for help.\
+\
+Error: While importing 'app', an ImportError was raised:\
+\
+Traceback (most recent call last):\
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/site-packages/flask/cli.py", line 256, in locate_app\
+    __import__(module_name)\
+  File "/Users/sookie/Desktop/flask-jinja-demo/video-demo/app.py", line 3, in <module>\
+    from flask_debugtoolbar import DebugToolbarExtension\
+ModuleNotFoundError: No module named 'flask_debugtoolbar'\
+\
+(venv) sookie@Luckys-MBP video-demo % \
+}
